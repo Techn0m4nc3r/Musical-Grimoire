@@ -43,7 +43,7 @@ public class Main {
     public static void menu () {
         // Menu Graphics
         System.out.println("============================");
-        System.out.println("|   Music Grimoire         |");
+        System.out.println("|   Musical Grimoire       |");
         System.out.println("============================");
         System.out.println("|What would you like to do?|");
         System.out.println("|     1. Add an album      |");
