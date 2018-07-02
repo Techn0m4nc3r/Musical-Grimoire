@@ -1,13 +1,17 @@
 package com.brandon;
 
 import java.util.Scanner;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
 
 public class Main {
 
     public static void main(String[] args) {
         System.out.println("Welcome to Musical Grimoire!\n");
-    //   Ask for input until the user selects quit
-            while (true) {
+        //   Ask for input until the user selects quit
+        while (true) {
             Scanner reader = new Scanner(System.in);
             menu();
             String selection = reader.nextLine();
@@ -15,14 +19,14 @@ public class Main {
                 addanAlbum();
             } else if (selection.equals("2")) {
                 chooseanAlbum();
-            }
-            else if (selection.equals("3")) {
+            } else if (selection.equals("3")) {
                 quit();
             }
 
-            }
-}
-    public static void addanAlbum () {
+        }
+    }
+
+    public static void addanAlbum() {
         System.out.println("Name of album: ");
         Scanner reader = new Scanner(System.in);
         String album = reader.nextLine();
@@ -31,16 +35,16 @@ public class Main {
 
     }
 
-    public static void chooseanAlbum () {
+    public static void chooseanAlbum() {
         System.out.println("Choose an album from the list");
     }
 
-    public static void quit () {
+    public static void quit() {
         System.out.println("Goodbye!");
         System.exit(0);
     }
 
-    public static void menu () {
+    public static void menu() {
         // Menu Graphics
         System.out.println("============================");
         System.out.println("|   Musical Grimoire       |");
@@ -57,5 +61,19 @@ public class Main {
 
     }
 
+    public static void fileTest() {
+        try {
+            File file = new File("test1.txt");
+            FileWriter fileWriter = new FileWriter(file);
+            fileWriter.write("This is ");
+            fileWriter.write("a test");
+            fileWriter.flush();
+            fileWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
+    }
 }
 
