@@ -1,9 +1,6 @@
 package com.brandon;
 
 import java.util.Scanner;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
 
 
 public class Main {
@@ -16,17 +13,18 @@ public class Main {
             menu();
             String selection = reader.nextLine();
             if (selection.equals("1")) {
-                addanAlbum();
+                addAnAlbum();
             } else if (selection.equals("2")) {
-                chooseanAlbum();
+                chooseAnAlbum();
             } else if (selection.equals("3")) {
                 quit();
             }
 
+
         }
     }
 
-    public static void addanAlbum() {
+    public static void addAnAlbum() {
         System.out.println("Name of album: ");
         Scanner reader = new Scanner(System.in);
         String album = reader.nextLine();
@@ -35,7 +33,7 @@ public class Main {
 
     }
 
-    public static void chooseanAlbum() {
+    public static void chooseAnAlbum() {
         System.out.println("Choose an album from the list");
     }
 
@@ -57,23 +55,14 @@ public class Main {
     }
 
     public static void saveAlbum(String album) {
+        Album test = new Album();
+        test.saveAlbum(album);
         System.out.println("Album saved!\n");
 
-    }
-
-    public static void fileTest() {
-        try {
-            File file = new File("test1.txt");
-            FileWriter fileWriter = new FileWriter(file);
-            fileWriter.write("This is ");
-            fileWriter.write("a test");
-            fileWriter.flush();
-            fileWriter.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
 
     }
+
 }
+
+
 
