@@ -1,14 +1,14 @@
 package com.brandon;
-
 import java.util.Scanner;
 
-
 public class Main {
+    public Main() {
+    }
 
     public static void main(String[] args) {
         System.out.println("Welcome to Musical Grimoire!\n");
-        //   Ask for input until the user selects quit
-        while (true) {
+
+        while(true) {
             Scanner reader = new Scanner(System.in);
             menu();
             String selection = reader.nextLine();
@@ -19,8 +19,6 @@ public class Main {
             } else if (selection.equals("3")) {
                 quit();
             }
-
-
         }
     }
 
@@ -30,7 +28,6 @@ public class Main {
         String album = reader.nextLine();
         System.out.println(album);
         saveAlbum(album);
-
     }
 
     public static void chooseAnAlbum() {
@@ -43,26 +40,21 @@ public class Main {
     }
 
     public static void menu() {
-        // Menu Graphics
         System.out.println("============================");
         System.out.println("|   Musical Grimoire       |");
         System.out.println("============================");
         System.out.println("|What would you like to do?|");
         System.out.println("|     1. Add an album      |");
         System.out.println("|     2. Choose an album   |");
-        System.out.println("|        3. Exit           |");
+        System.out.println("|     3. Exit              |");
         System.out.println("============================");
     }
 
+
+
     public static void saveAlbum(String album) {
-        Album test = new Album();
-        test.saveAlbum(album);
-        System.out.println("Album saved!\n");
-
-
-    }
-
+      Album test = new Album();
+      test.saveAlbum(album);
+      System.out.println("Album saved!\n");
+   }
 }
-
-
-

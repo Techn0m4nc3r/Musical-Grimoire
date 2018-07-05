@@ -8,10 +8,10 @@ public class Album {
 
     public void saveAlbum(String albumName) {
         try {
-            File file = new File(albumName);
+            File file = new File("./Album/" + albumName);
+            System.out.println("File: " + file.toString());
             FileWriter fileWriter = new FileWriter(file);
-//             fileWriter.write("");
-//             fileWriter.write("");
+//            System.out.println(new File("/Musical-Grimoire-Albums").getAbsolutePath());
             fileWriter.flush();
             fileWriter.close();
         } catch (IOException e) {
