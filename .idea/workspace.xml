@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="77ce7070-d7c9-424a-9b76-7a2d4c8ebc08" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/brandon/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brandon/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/brandon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brandon/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Album/poopbutts" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,10 +15,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/brandon/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
+            <state relative-caret-position="1131">
               <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
               <folding>
                 <element signature="e#956#957#0" expanded="true" />
@@ -29,7 +28,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Album.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Album.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/brandon/Album.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="468">
@@ -56,10 +55,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="729" />
-    <option name="y" value="529" />
-    <option name="width" value="2609" />
-    <option name="height" value="1582" />
+    <option name="y" value="54" />
+    <option name="width" value="1920" />
+    <option name="height" value="2106" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -148,9 +146,9 @@
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32977018" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="right" id="Run" order="8" visible="true" weight="0.4908854" />
+      <window_info anchor="right" id="Run" order="8" visible="true" weight="0.4908854" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.23730625" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.23730625" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16197917" />
@@ -244,23 +242,23 @@
     <entry file="file://$PROJECT_DIR$/src/com/brandon/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/com/brandon/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/com/brandon/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/brandon/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1131">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <folding>
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/brandon/Album.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/brandon/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-          <folding>
-            <element signature="e#956#957#0" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
           </folding>
         </state>
       </provider>
