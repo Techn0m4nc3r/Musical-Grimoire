@@ -32,6 +32,7 @@ public class Main {
 
     public static void chooseAnAlbum() {
         System.out.println("Choose an album from the list");
+        fileList();
     }
 
     public static void quit() {
@@ -56,5 +57,10 @@ public class Main {
       Album test = new Album();
       test.saveAlbum(album);
       System.out.println("Album saved!\n");
+   }
+
+   public static void fileList() {
+        ListFiles fileTest = new ListFiles();
+        fileTest.files();
    }
 }
